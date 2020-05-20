@@ -67,3 +67,7 @@ mkdir -p /u01/app/oracle/product/18/dbhome_1
 unzip -d /u01/app/oracle/product/18/dbhome_1/ ~/Downloads/LINUX.X64_180000_db_home.zip
 chown -R oracle:oinstall /u01
 chmod -R 775 /u01
+
+xhost +
+su - oracle
+/u01/app/oracle/product/18/dbhome_1/runInstaller
