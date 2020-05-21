@@ -70,7 +70,7 @@ unzip -d /u01/app/oracle/product/18/dbhome_1/ ~/Downloads/LINUX.X64_180000_db_ho
 chown -R oracle:oinstall /u01
 chmod -R 775 /u01
 
-cp $ORACLE_HOME/install/response/db_install.rsp ~/db_install.rsp
-cp $ORACLE_HOME/assistants/dbca/dbca.rsp ~/dbca.rsp
-cp $ORACLE_HOME/assistants/netca/netca.rsp ~/netca.rsp
+
+mkdir /u01/app/oraInventory
+cd /u01/app/oracle/product/18/dbhome_1
 
